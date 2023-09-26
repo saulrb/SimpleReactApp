@@ -1,0 +1,33 @@
+.users {
+  margin: 2rem auto;
+  width: 90%;
+  max-width: 40rem;
+}
+
+.users ul {
+  list-style: none;
+  padding: 1rem;
+}
+
+.users li {
+  border: 1px solid #ccc;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+}
+
+.title {
+  font-family: sans-serif;
+  font: sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: #4f005f;
+  margin: 2rem auto;
+  width: 90%;
+  max-width: 40rem;
+}
+
+.container {
+  flex-direction: column;
+  flex-grow: 2;
+}

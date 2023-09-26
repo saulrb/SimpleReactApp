@@ -1,0 +1,49 @@
+.container {
+  flex-direction: column;
+  flex-grow: 2;
+}
+
+.component {
+  font-family: sans-serif;
+  font: sans-serif;
+  font-size: 16px;
+}
+
+.forms {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+.input {
+  margin: 2rem auto;
+  padding: 1rem;
+  width: 90%;
+  max-width: 40rem;
+}
+
+.input label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.input input {
+  font: inherit;
+  display: block;
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 0.15rem;
+  margin-bottom: 0.5rem;
+}
+
+.input input:focus {
+  outline: none;
+  border-color: #4f005f;
+}
+
+.button {
+  font-weight: bolder;
+  font-style: oblique;
+}
